@@ -1,0 +1,123 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+pgis
+</name>
+</assembly>
+<members>
+<member name="T:pgis.My.MyWpfExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:pgis.My.MyWpfExtension.Application">
+ <summary>
+ Returns the application object for the running application
+ </summary>
+</member>
+<member name="P:pgis.My.MyWpfExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:pgis.My.MyWpfExtension.User">
+ <summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member>
+<member name="P:pgis.My.MyWpfExtension.Log">
+ <summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member>
+<member name="P:pgis.My.MyWpfExtension.Windows">
+ <summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member>
+<member name="T:pgis.My.Resources.Resources">
+<summary>
+  Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+</summary>
+</member>
+<member name="P:pgis.My.Resources.Resources.ResourceManager">
+<summary>
+  Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+</summary>
+</member>
+<member name="P:pgis.My.Resources.Resources.Culture">
+<summary>
+  Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+  Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+</summary>
+</member>
+<member name="P:pgis.clsDatenbankZugriff.ServiceName">
+ <summary>
+ ServiceName für OracleDB
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:pgis.clsDatenbankZugriff.dbtyp">
+ <summary>
+ "mdb" oder "dbf" oder "mysql"  
+ </summary>
+ <value></value>
+ <remarks></remarks>
+</member>
+<member name="M:pgis.meineExtensionsIsnullorempty.ToLogString(System.Exception,System.String)">
+ <summary> 
+ <para>Creates a log-string from the Exception.</para>
+ <para>The result includes the stacktrace, innerexception et cetera, separated by <seealso cref="P:System.Environment.NewLine"/>.</para>
+ </summary>
+ <param name="ex">The exception to create the string from.</param>
+ <param name="additionalMessage">Additional message to place at the top of the string, maybe be empty or null.</param>
+ <returns></returns>
+</member>
+<member name="T:pgis.myPoint">
+ <summary>
+ x,y, as double
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:pgis.winRTF">
+<summary>
+winRTF
+</summary>
+</member>
+<member name="M:pgis.winRTF.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:pgis.Application">
+<summary>
+Application
+</summary>
+</member>
+<member name="M:pgis.Application.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:pgis.Application.Main">
+<summary>
+Application Entry Point.
+</summary>
+</member>
+<member name="T:pgis.MainWindow">
+<summary>
+MainWindow
+</summary>
+</member>
+<member name="M:pgis.MainWindow.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>

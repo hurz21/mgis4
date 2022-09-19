@@ -14,5 +14,14 @@ Option Explicit On
 <Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("info.rtf"),  _
  Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("infowindow.htm"),  _
  Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("mono.security.dll"),  _
- Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("npgsql.dll")> 
+ Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("npgsql.dll"),  _
+ Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("packages/cefsharp.common.104.4.240/cefsharp/x86/cefsharp.browsersubprocess.core.d"& _ 
+    "ll"),  _
+ Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("packages/cefsharp.common.104.4.240/cefsharp/x86/cefsharp.browsersubprocess.core.p"& _ 
+    "db"),  _
+ Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("packages/cefsharp.common.104.4.240/cefsharp/x86/cefsharp.browsersubprocess.exe"),  _
+ Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("packages/cefsharp.common.104.4.240/cefsharp/x86/cefsharp.browsersubprocess.pdb"),  _
+ Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("packages/cefsharp.common.104.4.240/cefsharp/x86/cefsharp.core.runtime.dll"),  _
+ Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("packages/cefsharp.common.104.4.240/cefsharp/x86/cefsharp.core.runtime.pdb"),  _
+ Assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("packages/cefsharp.common.104.4.240/cefsharp/x86/cefsharp.core.runtime.xml")> 
 
