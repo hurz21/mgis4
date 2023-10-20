@@ -110,7 +110,7 @@ Class MainWindow
         If iminternet Then
             btnDossier.Visibility = Visibility.Collapsed
         Else
-            btnDossier.Visibility = Visibility.Visible
+            btnDossier.Visibility = Visibility.Collapsed
         End If
 
         If IO.File.Exists(strGlobals.imaptemplateFile) Then
