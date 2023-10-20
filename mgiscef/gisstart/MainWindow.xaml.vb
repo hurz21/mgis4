@@ -6214,7 +6214,8 @@ Class MainWindow
         'Process.Start(url)
 
 
-        Process.Start("iexplore.exe", url)
+        Process.Start("MSEDGE", url)
+        ' Process.Start("iexplore.exe", url)
         e.Handled = True
     End Sub
 

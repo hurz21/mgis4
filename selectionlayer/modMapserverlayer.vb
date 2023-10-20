@@ -64,7 +64,7 @@ Module modMapserverlayer
             .password = CType(myglobalz.iniDict("VorgangDB.password"), String)
             .dbtyp = CType(myglobalz.iniDict("VorgangDB.dbtyp"), String)
 
-            .Host = "msql01"
+            .Host = "kh-w-sql02"
             .Schema = "Paradigma"
             .Tabelle = "paradigma.kreis-of.local"
             .ServiceName = "vorgang"
@@ -82,7 +82,7 @@ Module modMapserverlayer
             .password = CType(myglobalz.iniDict("VorgangDB.password"), String)
             .dbtyp = CType(myglobalz.iniDict("VorgangDB.dbtyp"), String)
 
-            .Host = "msql01"
+            .Host = "kh-w-sql02"
             .Schema = "Paradigma"
             .Tabelle = "paradigma.kreis-of.local"
             .ServiceName = "vorgang"

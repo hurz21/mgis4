@@ -8,7 +8,7 @@ Public Class clsSQLS
         Try
             l("oeffneConnectionSQLS")
             Dim cstring As String
-            cstring = "Server=msql01;Database=Paradigma;User=sgis;Pwd=WinterErschranzt.74;"
+            cstring = "Server=kh-w-sql02;Database=Paradigma;User=sgis;Pwd=WinterErschranzt.74;"
             l(cstring)
             EigentuemerSchnellDB = New SqlConnection(cstring)
             EigentuemerSchnellDB.Open()

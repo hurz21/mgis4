@@ -361,7 +361,7 @@
 
                             <Button Name="btnDossier" Content="Dossier" Click="btnDossier_Click" FontWeight="Bold"
                                     ToolTip="Die Funktion wird bald eingestellt, weil sie kaum genutzt wird."
-                                    Width="60" Style="{StaticResource newButton}"  Visibility="Visible"/>
+                                    Width="60" Style="{StaticResource newButton}"  Visibility="Collapsed"/>
                             <!--<Button x:Name="btnSuchobjAusSchalten" Click="btnSuchobjAusSchalten_Click"  Width="200"  Visibility="Collapsed"
                                     Style="{StaticResource lessButton}"
                                         ToolTip="löscht den Google-pin und die blaue Markierung des gesuchten Flurstücks" 

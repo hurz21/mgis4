@@ -24,7 +24,7 @@
             myglobalz.postgresHost = myglobalz.HauptServerName
             myglobalz.serverUNC = "\\" & HauptServerName & "\gdvell\"
             myglobalz.serverWeb = "http://" & HauptServerName & ".kreis-of.local"
-            myglobalz.mssqlhost = "msql01"
+            myglobalz.mssqlhost = "kh-w-sql02"
             'If myglobalz.getMapsFromInternet Then
             '    myglobalz.serverWeb = "https://buergergis.kreis-offenbach.de"
             '    myglobalz.serverWeb = "http://" & HauptServerName & ".kreis-of.local"
@@ -46,7 +46,7 @@
             myglobalz.postgresHost = myglobalz.HauptServerName
             myglobalz.serverUNC = "\\" & myglobalz.HauptServerName & "\gdvell\"
             myglobalz.serverWeb = "https://buergergis.kreis-offenbach.de"
-            myglobalz.mssqlhost = "msql01"
+            myglobalz.mssqlhost = "kh-w-sql02"
             myglobalz.eigentuemer_protokoll = myglobalz.serverUNC & "apps\eigentuemer\zugriffNEU.txt"
             'myglobalz.mgisRemoteUserRoot = myglobalz.serverUNC & "apps\test\mgis\"
             myglobalz.mgisRemoteUserRoot = strGlobals.localDocumentCacheRoot & "\inis\"
@@ -61,7 +61,7 @@
             myglobalz.postgresHost = myglobalz.HauptServerName
             myglobalz.serverUNC = "\\" & myglobalz.HauptServerName & "\gdvell\"
             myglobalz.serverWeb = "http://" & myglobalz.HauptServerName & ".kreis-of.local"
-            myglobalz.mssqlhost = "msql01"
+            myglobalz.mssqlhost = "kh-w-sql02"
             myglobalz.eigentuemer_protokoll = myglobalz.serverUNC & "apps\eigentuemer\zugriffNEU.txt"
             myglobalz.mgisRemoteUserRoot = myglobalz.serverUNC & "apps\test\mgis\"
             myglobalz.myfakeurl = "http://w2gis02.kreis-of.local"

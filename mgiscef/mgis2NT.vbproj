@@ -150,23 +150,27 @@
   <ItemGroup>
     <Reference Include="CefSharp, Version=71.0.0.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\CefSharp.dll</HintPath>
+      <HintPath>dll\CefSharp.dll</HintPath>
     </Reference>
     <Reference Include="CefSharp.Core, Version=71.0.0.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\CefSharp.Core.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>dll\CefSharp.Core.dll</HintPath>
     </Reference>
     <Reference Include="CefSharp.Wpf, Version=71.0.0.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\CefSharp.Wpf.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>dll\CefSharp.Wpf.dll</HintPath>
     </Reference>
-    <Reference Include="Devart.Data, Version=5.0.1313.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL" />
-    <Reference Include="Devart.Data.Oracle, Version=8.5.521.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL" />
+    <Reference Include="Devart.Data, Version=5.0.1313.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\Devart.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Devart.Data.Oracle, Version=8.5.521.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\Devart.Data.Oracle.dll</HintPath>
+    </Reference>
     <Reference Include="itextsharp, Version=4.1.6.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>.\itextsharp.dll</HintPath>
+      <HintPath>dll\itextsharp.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil, Version=0.9.6.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
       <HintPath>packages\Mono.Cecil.0.9.6.1\lib\net45\Mono.Cecil.dll</HintPath>
@@ -182,14 +186,14 @@
     </Reference>
     <Reference Include="Mono.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>.\Mono.Security.dll</HintPath>
+      <HintPath>dll\Mono.Security.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Npgsql, Version=2.2.0.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>.\Npgsql.dll</HintPath>
+      <HintPath>dll\Npgsql.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
@@ -209,7 +213,7 @@
     <Reference Include="PresentationFramework" />
     <Reference Include="Xceed.Wpf.Toolkit, Version=3.0.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>.\Xceed.Wpf.Toolkit.dll</HintPath>
+      <HintPath>dll\Xceed.Wpf.Toolkit.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -508,6 +512,11 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="app.config" />
+    <Content Include="dll\CefSharp.Core.dll" />
+    <Content Include="dll\CefSharp.dll" />
+    <Content Include="dll\CefSharp.Wpf.dll" />
+    <Content Include="dll\itextsharp.dll" />
+    <Content Include="dll\Xceed.Wpf.Toolkit.dll" />
     <Content Include="giskarten.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
